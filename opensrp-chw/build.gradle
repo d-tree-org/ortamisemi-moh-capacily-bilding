@@ -243,10 +243,10 @@ android {
 
     flavorDimensions 'baseDimension'
     productFlavors {
-        diabetic {
+        kk {
             getIsDefault().set(true)
             dimension = 'baseDimension'
-            applicationIdSuffix ".diabetic"
+            applicationIdSuffix ".kk"
             versionCode 15
             versionName "0.0.1"
             resConfigs "en", "sw"
