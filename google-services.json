@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "326994384446",
+    "project_id": "government-capacity-building",
+    "storage_bucket": "government-capacity-building.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326994384446:android:5ab69d23dacc3b068ce36f",
+        "android_client_info": {
+          "package_name": "org.smartregister.chw.diabetic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326994384446-bqc9uvm57bns2b4dksud573belcr5thp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCZT6aUHERhk1EJfCFvASUssoQFe5-qy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326994384446-bqc9uvm57bns2b4dksud573belcr5thp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
