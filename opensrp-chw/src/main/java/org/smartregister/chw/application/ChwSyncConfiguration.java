@@ -94,12 +94,12 @@ public class ChwSyncConfiguration extends SyncConfiguration {
 
     @Override
     public String getOauthClientId() {
-        return isProductionEnvironment() ? BuildConfig.OAUTH_CLIENT_ID_PROD : BuildConfig.OAUTH_CLIENT_ID;
+        return BuildConfig.OAUTH_CLIENT_ID;
     }
 
     @Override
     public String getOauthClientSecret() {
-        return isProductionEnvironment() ? BuildConfig.OAUTH_CLIENT_SECRET_PROD : BuildConfig.OAUTH_CLIENT_SECRET;
+        return BuildConfig.OAUTH_CLIENT_SECRET;
     }
 
     @Override

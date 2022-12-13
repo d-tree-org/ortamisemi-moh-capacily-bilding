@@ -1,8 +1,10 @@
 package org.smartregister.chw.activity;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.Menu;
@@ -21,6 +23,7 @@ import org.smartregister.chw.presenter.LoginPresenter;
 import org.smartregister.chw.util.Utils;
 import org.smartregister.family.util.Constants;
 import org.smartregister.growthmonitoring.service.intent.WeightForHeightIntentService;
+import org.smartregister.location.helper.LocationHelper;
 import org.smartregister.repository.AllSharedPreferences;
 import org.smartregister.task.SaveTeamLocationsTask;
 import org.smartregister.util.PermissionUtils;
@@ -151,10 +154,18 @@ public class LoginActivity extends BaseLoginActivity implements BaseLoginContrac
         mLoginPresenter = new LoginPresenter(this);
     }
 
+    @SuppressLint("StaticFieldLeak")
     @Override
     public void goToHome(boolean remote) {
         if (remote) {
-            Utils.startAsyncTask(new SaveTeamLocationsTask(), null);
+            Utils.startAsyncTask(new AsyncTask<Void, Void, Void>() {
+                @SuppressLint("StaticFieldLeak")
+                @Override
+                protected Void doInBackground(Void... voids) {
+                    LocationHelper.getInstance().locationIdsFromHierarchy();
+                    return null;
+                }
+            }, null);
             processWeightForHeightZscoreCSV();
         }
 
