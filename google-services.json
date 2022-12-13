@@ -1,33 +1,62 @@
 {
   "project_info": {
-    "project_number": "326994384446",
-    "project_id": "government-capacity-building",
-    "storage_bucket": "government-capacity-building.appspot.com"
+    "project_number": "624914346708",
+    "project_id": "kizazi-kijacho",
+    "storage_bucket": "kizazi-kijacho.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:326994384446:android:5ab69d23dacc3b068ce36f",
+        "mobilesdk_app_id": "1:624914346708:android:9374fc608c447e78050141",
         "android_client_info": {
           "package_name": "org.smartregister.chw.diabetic"
         }
       },
       "oauth_client": [
         {
-          "client_id": "326994384446-bqc9uvm57bns2b4dksud573belcr5thp.apps.googleusercontent.com",
+          "client_id": "624914346708-a34hqbaonctq1th7omsl2k375g2ovuq2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBCZT6aUHERhk1EJfCFvASUssoQFe5-qy8"
+          "current_key": "AIzaSyCy8ldzh7ZcBMQCr_B9yoN8pIIUjl0o7LI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "326994384446-bqc9uvm57bns2b4dksud573belcr5thp.apps.googleusercontent.com",
+              "client_id": "624914346708-a34hqbaonctq1th7omsl2k375g2ovuq2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624914346708:android:53d6618ea78da4bb050141",
+        "android_client_info": {
+          "package_name": "org.smartregister.chw.kk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624914346708-a34hqbaonctq1th7omsl2k375g2ovuq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy8ldzh7ZcBMQCr_B9yoN8pIIUjl0o7LI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624914346708-a34hqbaonctq1th7omsl2k375g2ovuq2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
