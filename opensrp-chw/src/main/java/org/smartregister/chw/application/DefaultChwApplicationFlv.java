@@ -50,7 +50,7 @@ public abstract class DefaultChwApplicationFlv implements ChwApplication.Flavor 
 
     @Override
     public boolean hasFamilyPlanning() {
-        return false;
+        return true;
     }
 
     @Override

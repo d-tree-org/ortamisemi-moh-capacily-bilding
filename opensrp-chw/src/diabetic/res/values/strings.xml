@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Kizazi Kijacho</string>
-    <string name="login_title">Kizazi Kijacho</string>
-    <string name="nav_logo">Kizazi Kijacho</string>
+    <string name="app_name">Diabetic</string>
+    <string name="login_title">Diabetic</string>
+    <string name="nav_logo">Diabetic</string>
 
     <string name="add_care_giver"> Add Caregiver </string>
 

@@ -123,27 +123,6 @@
     <string name="children_6_23_months_not_received_vitamin_A">Children (6&#8211;23 months) who did not receive Vitamin A in the last 6 months</string>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <string name="opv_0_not_included">OPV 0 not included</string>
 
     <string name="yes_slice_label">Yes</string>
@@ -442,20 +421,29 @@
     <string name="counseling">Counseling</string>
     <string name="reset_pin_login">Reset Pin Login</string>
     <string name="birth_certificate_num_error_msg">Birth certificate number must be unique and cannot exceed 15 digits.</string>
-    
+
     <string name="unauthorized_group">This account is not allowed to access this device</string>
 
     <!-- warning -->
     <string name="any_changes_you_make">Any changes you have made will be lost</string>
-    <string name="discussed_labour_signs_with_woman" > Discussed signs of labour with the woman </string>
-    <string name="foods_available" > Foods available in the area </string>
-  
-      <string name="anc_partially_registered">Partially Registered</string>
+    <string name="discussed_labour_signs_with_woman"> Discussed signs of labour with the woman </string>
+    <string name="foods_available"> Foods available in the area </string>
+
+    <string name="anc_partially_registered">Partially Registered</string>
     <string name="anc_fully_registered">Fully Registered</string>
     <string name="pnc_hv_malaria_prevention_action_title">Malaria Prevention</string>
 
     <string name="device_data_synced">Device data synced</string>
     <string name="device_data_not_synced">Device data not synced</string>
     <string name="progressBarLabel">Syncing %s : %d%% </string>
+    <string name="title_activity_sample_main">SampleMain</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
 
 </resources>

@@ -70,7 +70,7 @@
             android:background="@android:color/transparent"
             android:fontFamily="@font/google_sans_bold"
             android:gravity="center"
-            android:text="Kizazi Kijacho"
+            android:text="Diabetic"
             android:textSize="18sp"
             android:visibility="visible" />
 

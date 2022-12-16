@@ -43,6 +43,11 @@ public class FamilyRegisterActivity extends CoreFamilyRegisterActivity {
     }
 
     @Override
+    protected void onResumption() {
+        super.onResumption();
+    }
+
+    @Override
     protected void initializePresenter() {
         presenter = new FamilyRegisterPresenter(this, new FamilyRegisterModel());
     }
@@ -50,7 +55,7 @@ public class FamilyRegisterActivity extends CoreFamilyRegisterActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        NavigationMenu.getInstance(this, null, null);
+        //NavigationMenu.getInstance(this, null, null);
         ChwApplication.getInstance().notifyAppContextChange(); // initialize the language (bug in translation)
 
         action = getIntent().getStringExtra(Constants.ACTIVITY_PAYLOAD.ACTION);

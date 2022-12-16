@@ -122,7 +122,6 @@ android {
 
 
                 buildConfigField "String", "OAUTH_CLIENT_ID", properties["oauth.client.id"]
-                buildConfigField "String", "OAUTH_CLIENT_ID_PROD", properties["oauth.client.id.prod"]
 
             } else {
                 project.logger.error("oauth.client.id variable is not set in your local.properties")
@@ -133,7 +132,6 @@ android {
             if (properties != null && properties.containsKey("oauth.client.secret")) {
 
                 buildConfigField "String", "OAUTH_CLIENT_SECRET", properties["oauth.client.secret"]
-                buildConfigField "String", "OAUTH_CLIENT_SECRET_PROD", properties["oauth.client.secret.prod"]
 
             } else {
                 project.logger.error("oauth.client.secret variable is not set in your local.properties")
@@ -247,8 +245,8 @@ android {
             getIsDefault().set(true)
             dimension = 'baseDimension'
             applicationIdSuffix ".diabetic"
-            versionCode 15
-            versionName "0.0.1"
+            versionCode 21
+            versionName "2.8.1"
             resConfigs "en", "sw"
             buildConfigField "String", 'opensrp_url', '"https://kizazi-kijacho.smartregister.org/opensrp/"'
             buildConfigField "String", 'guidebooks_url', '"https://opensrp.s3.amazonaws.com/media/chad/"'

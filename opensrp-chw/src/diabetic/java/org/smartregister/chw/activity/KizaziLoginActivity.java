@@ -13,6 +13,7 @@ import android.widget.Toast;
 import org.smartregister.AllConstants;
 import org.smartregister.chw.BuildConfig;
 import org.smartregister.chw.R;
+import org.smartregister.chw.contract.ListContract;
 import org.smartregister.chw.fragment.EnvironmentSelectDialogFragment;
 import org.smartregister.chw.util.KkSwitchConstants;
 import org.smartregister.repository.AllSharedPreferences;
@@ -31,6 +32,12 @@ public class KizaziLoginActivity extends LoginActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setServerUrl();
+    }
+
+    @Override
+    public void goToHome(boolean remote) {
+        Intent intent = new Intent(getApplicationContext(), DiabeticRegisterActivity.class);
+        startActivity(intent);
     }
 
     @Override
